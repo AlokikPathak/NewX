@@ -14,10 +14,10 @@ const routes: Routes = [
         path: '',
         component: DashboardPage,
       },
-      // {
-      //   path: '/create',
-      //   component: CreateStoryPage,
-      // }
+      {
+        path: 'create',
+        component: CreateStoryPage,
+      }
     ]
   }, {
     path: 'session',
