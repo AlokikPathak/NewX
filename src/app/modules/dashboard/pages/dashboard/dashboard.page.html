@@ -1,1 +1,15 @@
-<p>dashboard works!</p>
+<div class="story grid-2" *ngFor="let Story of Stories">
+    <div class="story-item">
+        <mat-card  style="background:white;">
+            <mat-card-header>
+                <div mat-card-avatar class="card-header-image"></div>
+                <mat-card-title>{{Story.title}}</mat-card-title>
+                <mat-card-subtitle>Created By: {{Story.username}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content><p>{{Story.description}}</p></mat-card-content>
+            <mat-card-actions>
+                <button (click)="viewStory(Story)" mat-button>VIEW</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

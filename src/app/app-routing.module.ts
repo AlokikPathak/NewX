@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AdminLayout } from './core/admin/admin.layout';
 import { AuthLayout } from './core/auth/auth.layout';
 import { DashboardPage } from './modules/dashboard/pages/dashboard/dashboard.page';
+import { CreateStoryPage } from './modules/dashboard/pages/create-story/create-story.page';
 
 const routes: Routes = [
   {
@@ -12,7 +13,11 @@ const routes: Routes = [
       {
         path: '',
         component: DashboardPage,
-      }
+      },
+      // {
+      //   path: '/create',
+      //   component: CreateStoryPage,
+      // }
     ]
   }, {
     path: 'session',

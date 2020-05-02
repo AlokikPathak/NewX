@@ -1,0 +1,32 @@
+.story {
+    background: white;
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.story-item {
+    width: 49%;
+    float: left;
+    padding: 0.5rem 0.5% 0.5rem 0.5%;
+}
+
+@media (max-width: 600px) {
+    .story-item {
+        width: 100%;
+    }
+}
+
+.card-header-image {
+    background-image: url('../../../../../assets/images/logo_dark_2x.png');
+    background-size: cover;
+}
+
+.mat-card:hover{
+    box-shadow: 0 6px 12px rgba(0,0,0,0.23), 0 6px 12px rgba(0,0,0,0.23) ;
+    color: indigo;
+}
+
+.mat-card:active{
+    box-shadow: 0 9px 15px rgba(0,0,0,0.23), 0 9px 15px rgba(0,0,0,0.23), 0 9px 15px rgba(0,0,0,0.23);
+}
+

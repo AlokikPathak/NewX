@@ -9,7 +9,7 @@
   
     <span style="flex: 1 1 auto;"></span>
 
-    <button class="menu-button"  matTooltip="Add" mat-icon-button  fxLayout fxHide.xs>
+    <button class="menu-button" routerLink="/create"  matTooltip="Add" mat-icon-button  fxLayout fxHide.xs>
       <mat-icon>create</mat-icon>
     </button>
 
@@ -33,7 +33,7 @@
   
     <mat-menu #smallScreenHeaderMenu="matMenu">
         
-        <button mat-menu-item  > 
+        <button mat-menu-item routerLink="/create" > 
           <mat-icon>create</mat-icon>
           <span>Add</span>
         </button>
