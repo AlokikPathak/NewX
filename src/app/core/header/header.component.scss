@@ -1,0 +1,22 @@
+.menu-button {
+    align-items: right !important;
+    margin-left: 10px;
+}
+
+.branding {
+    width: 10;
+    height: 10;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 0.5rem;
+}
+
+.main-header {
+    background-color: indigo;
+    color: white;
+}
+
+mat-toolbar {
+    position: sticky;
+    overflow: hidden;
+}
