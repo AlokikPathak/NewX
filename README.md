@@ -1,27 +1,47 @@
-# Xstart
+# NewsX
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.2.
+This App is used for publishing News Stories.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Routes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. '' : Home of App
+2. '/create' : Form of creating a New Story
+3. '/session/' : SignIn Page
+4. '/session/signup' : SignUp Page
+5. '/session/forget' : Forget Password Page
+6. '/session/not-found' : Page Not Found Page
 
-## Build
+## Environment Details
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Angular CLI: 9.1.2
+Node: 12.14.0
+OS: linux x64
 
-## Running unit tests
+Angular: 9.1.2
+... animations, cli, common, compiler, compiler-cli, core, forms
+... language-service, platform-browser, platform-browser-dynamic
+... router
+Ivy Workspace: Yes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.901.2
+@angular-devkit/build-angular     0.901.2
+@angular-devkit/build-optimizer   0.901.2
+@angular-devkit/build-webpack     0.901.2
+@angular-devkit/core              9.1.2
+@angular-devkit/schematics        9.1.2
+@angular/cdk                      9.2.1
+@angular/flex-layout              9.0.0-beta.29
+@angular/material                 9.2.1
+@ngtools/webpack                  9.1.2
+@schematics/angular               9.1.2
+@schematics/update                0.901.2
+rxjs                              6.5.5
+typescript                        3.8.3
+webpack                           4.42.0
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

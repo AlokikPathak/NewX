@@ -18,6 +18,7 @@ export class CreateStoryPage implements OnInit {
   ngOnInit() {
     this.form = this.fb.group ( {
       title: [null , Validators.compose ( [ Validators.required ] )] , description: [null , Validators.compose ( [ Validators.required ] )],
+      username: [null , Validators.compose ( [ Validators.required ] )]
     } );
   }
 

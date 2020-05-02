@@ -22,6 +22,12 @@
                 </div>
 
                 <div class="pb-1">
+                    <mat-form-field style="width: 100%">
+                      <textarea matInput  placeholder="Username" [formControl]="form.controls['username']"></textarea>
+                    </mat-form-field>
+                    <small *ngIf="form.controls['username'].hasError('required') && form.controls['username'].touched" class="mat-text-warn">Username is required.</small>
+                  </div>
+                <div class="pb-1">
                   <mat-checkbox>I have read and agree to the terms of service.</mat-checkbox>
                 </div>
                 <button mat-raised-button color="primary" type="submit" [disabled]="!form.valid">Create Story</button>
